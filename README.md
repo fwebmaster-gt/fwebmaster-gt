@@ -79,7 +79,8 @@ NestJS REST API
 Production
 
 **Demo**
-https://your-link-here.com
+[FWallet Play Store](https://play.google.com/store/apps/details?id=com.fwebmaster.fwallet)
+[FWallet WebApp](https://wallet.fwebmaster.com/)
 
 **Repository**
 Private (commercial project)
@@ -148,9 +149,6 @@ However, if you are:
 * a collaborator
 
 You can request **temporary read access** to specific repositories for evaluation.
-
-Contact:
-[your-email@example.com](mailto:your-email@example.com)
 
 ---
 
