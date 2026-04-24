@@ -1,6 +1,6 @@
 # Freddy — Full Stack Developer
 
-Full stack developer with 6+ years of experience building scalable web and mobile applications.
+Full stack developer with 7+ years of experience building scalable web and mobile applications.
 My main focus is building **real products in production**, mainly SaaS and mobile apps.
 
 Most of my work is **private because the projects are commercial products**, but here you can find an overview of the systems I’ve built, the architecture used, and live demos.
