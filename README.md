@@ -7,8 +7,8 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/fwebmaster/"><img src="https://img.shields.io/badge/LinkedIn-fwebmaster-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://play.google.com/store/apps/details?id=com.fwebmaster.fwallet"><img src="https://img.shields.io/badge/Google_Play-fWallet-414141?style=flat-square&logo=googleplay&logoColor=white" alt="fWallet on Google Play"/></a>
-  <a href="https://wallet.fwebmaster.com/"><img src="https://img.shields.io/badge/Web_App-wallet.fwebmaster.com-111111?style=flat-square&logo=googlechrome&logoColor=white" alt="fWallet Web App"/></a>
+  <a href="https://play.google.com/store/apps/dev?id=9140148335065881999"><img src="https://img.shields.io/badge/Google_Play-Developer-414141?style=flat-square&logo=googleplay&logoColor=white" alt="Google Play developer profile"/></a>
+  <a href="https://fwebmaster.com/"><img src="https://img.shields.io/badge/Portfolio-fwebmaster.com-111111?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
 </p>
 
 ---
@@ -30,13 +30,13 @@ code review access can be granted on request.
 ### Tech stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,react,nextjs,tailwind,postgres,prisma,sqlite,docker,firebase,git&perline=12" alt="Tech stack"/>
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,react,nextjs,tailwind,dart,flutter,postgres,prisma,sqlite,docker,firebase,git&perline=14" alt="Tech stack"/>
 </p>
 
 | Area | Tools |
 |---|---|
 | **Frontend** | React, Next.js (App Router), TailwindCSS, TypeScript |
-| **Mobile** | React Native (Expo), SQLite, offline sync |
+| **Mobile** | React Native (Expo), Flutter, Dart, SQLite, offline sync |
 | **Backend** | Node.js, NestJS, REST, OpenAPI/Swagger, JWT + refresh tokens, RBAC |
 | **Data** | PostgreSQL, Prisma, SQLite, migrations and safe schema evolution |
 | **Infra** | Docker, cloud storage, CI |
@@ -44,6 +44,18 @@ code review access can be granted on request.
 ---
 
 ### Featured work
+
+#### Tribu ERP — ERP / POS SaaS for small businesses &nbsp;`Production`
+
+Multi-tenant ERP and point of sale for retail, restaurants and distributors in Central America: sales, purchasing,
+inventory, cash management and electronic invoicing in one platform.
+
+| | |
+|---|---|
+| **Platforms** | Web app · Mobile POS · REST API |
+| **Highlights** | Electronic invoicing (Guatemala FEL) behind a provider-agnostic port with multiple certifiers · Offline POS that syncs documents later · Concurrency-safe money and stock (row locks, idempotent retries) · Derived audit timeline per document · Tax-regime–aware totals |
+| **Architecture** | NestJS + Prisma + PostgreSQL · Next.js web app · React Native mobile · OpenAPI-documented API |
+| **Links** | [tribuerp.com](https://tribuerp.com/) |
 
 #### fWallet — personal finance platform &nbsp;`Production`
 
@@ -90,5 +102,5 @@ SaaS products · financial software · offline-first applications · scalable AP
 ### Let's talk
 
 Open to conversations with teams building serious products. Reach me on
-[LinkedIn](https://www.linkedin.com/in/fwebmaster/) — if you'd like to review code from a private project,
+[LinkedIn](https://www.linkedin.com/in/fwebmaster/) or through my [portfolio](https://fwebmaster.com/) — if you'd like to review code from a private project,
 ask and I'll grant temporary read access.
