@@ -1,165 +1,94 @@
-# Freddy — Full Stack Developer
+<h1 align="center">Freddy Gutierrez</h1>
 
-Full stack developer with 7+ years of experience building scalable web and mobile applications.
-My main focus is building **real products in production**, mainly SaaS and mobile apps.
+<p align="center">
+  <strong>Full Stack Engineer · SaaS · Offline-first mobile · Fintech</strong><br/>
+  7+ years shipping production web and mobile products with TypeScript end to end.
+</p>
 
-Most of my work is **private because the projects are commercial products**, but here you can find an overview of the systems I’ve built, the architecture used, and live demos.
-
-If you are interested in reviewing code from any project, **access can be granted upon request**.
-
----
-
-## Tech Stack
-
-**Frontend**
-
-* React
-* Next.js (App Router)
-* React Native (Expo)
-* TailwindCSS
-* TypeScript
-
-**Backend**
-
-* Node.js
-* NestJS
-* REST APIs
-* Authentication systems (JWT + refresh tokens)
-
-**Data**
-
-* PostgreSQL
-* SQLite
-* Offline-first architectures
-* Data synchronization
-
-**Infrastructure**
-
-* Docker
-* Cloud Storage integrations
-* API design for SaaS platforms
+<p align="center">
+  <a href="https://www.linkedin.com/in/fwebmaster/"><img src="https://img.shields.io/badge/LinkedIn-fwebmaster-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://play.google.com/store/apps/details?id=com.fwebmaster.fwallet"><img src="https://img.shields.io/badge/Google_Play-fWallet-414141?style=flat-square&logo=googleplay&logoColor=white" alt="fWallet on Google Play"/></a>
+  <a href="https://wallet.fwebmaster.com/"><img src="https://img.shields.io/badge/Web_App-wallet.fwebmaster.com-111111?style=flat-square&logo=googlechrome&logoColor=white" alt="fWallet Web App"/></a>
+</p>
 
 ---
 
-# Production Projects
+### About
 
-## fWallet — Personal Finance Platform
+I build **real products that run in production** — mostly SaaS platforms and mobile apps where the
+hard parts are data integrity, offline operation and money that has to add up.
 
-Personal finance platform focused on helping users understand and control their money through analytics, budgeting, and offline-first capabilities.
+- Design APIs and data models that stay correct under concurrency (row locks, idempotent retries, audit trails).
+- Build mobile apps that **work fully offline** and reconcile with the server later.
+- Own features end to end: schema → API → web → mobile → release.
 
-**Platforms**
-
-* Android
-* Web App (PWA)
-
-**Main Features**
-
-* Account management
-* Transaction tracking
-* Categories and budgets
-* Cash flow analytics
-* Charts and financial statistics
-* Debt tracking (money owed / money lent)
-* Offline mode with local database
-* Data synchronization with API
-
-**Architecture**
-
-Mobile App
-React Native + Expo
-SQLite for offline storage
-
-Web App
-Next.js (App Router)
-
-Backend
-NestJS REST API
-
-**Status**
-Production
-
-**Demo**
-[FWallet Play Store](https://play.google.com/store/apps/details?id=com.fwebmaster.fwallet)
-[FWallet WebApp](https://wallet.fwebmaster.com/)
-
-**Repository**
-Private (commercial project)
+Most of my work lives in **private, commercial repositories**. This page summarizes what I've built and how;
+code review access can be granted on request.
 
 ---
 
-## SaaS Backend Foundation
+### Tech stack
 
-A reusable backend foundation used for building SaaS products.
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,react,nextjs,tailwind,postgres,prisma,sqlite,docker,firebase,git&perline=12" alt="Tech stack"/>
+</p>
 
-**Core Modules**
-
-* Authentication system
-* JWT + refresh tokens
-* Role based access control
-* Multi-organization architecture
-* API pagination and filtering
-* Project management structure
-
-**Stack**
-
-* NestJS
-* PostgreSQL
-* TypeScript
-
-**Status**
-Production use in multiple internal projects
-
-**Repository**
-Private
+| Area | Tools |
+|---|---|
+| **Frontend** | React, Next.js (App Router), TailwindCSS, TypeScript |
+| **Mobile** | React Native (Expo), SQLite, offline sync |
+| **Backend** | Node.js, NestJS, REST, OpenAPI/Swagger, JWT + refresh tokens, RBAC |
+| **Data** | PostgreSQL, Prisma, SQLite, migrations and safe schema evolution |
+| **Infra** | Docker, cloud storage, CI |
 
 ---
 
-## Offline-first Financial Engine
+### Featured work
 
-A data architecture designed for applications that must **work fully offline** and sync later with a backend.
+#### fWallet — personal finance platform &nbsp;`Production`
 
-**Concepts implemented**
+Helps people understand and control their money through analytics, budgets and debt tracking — online or offline.
 
-* Local caching
-* Transaction sync queues
-* Conflict handling
-* Local analytics calculations
+| | |
+|---|---|
+| **Platforms** | Android · Web (PWA) |
+| **Features** | Accounts, transactions, categories & budgets, cash-flow analytics, debt tracking (owed / lent), offline mode with sync |
+| **Architecture** | React Native + Expo with SQLite locally · Next.js web app · NestJS REST API |
+| **Links** | [Google Play](https://play.google.com/store/apps/details?id=com.fwebmaster.fwallet) · [Web App](https://wallet.fwebmaster.com/) |
 
-Used in mobile financial applications where connectivity cannot always be guaranteed.
+#### SaaS backend foundation &nbsp;`Production · private`
 
-**Repository**
-Private
+Reusable NestJS + PostgreSQL base used to start new SaaS products without rebuilding the plumbing.
 
----
+- Authentication with JWT + refresh tokens, role-based access control
+- Multi-organization (multi-tenant) architecture
+- Consistent pagination, filtering and API conventions
 
-# Open Source / Public Work
+#### Offline-first sync engine &nbsp;`Production · private`
 
-Some reusable utilities and technical experiments may be published here over time.
+Data layer for apps that must keep working without connectivity and sync later.
 
----
-
-# Code Access
-
-Because most projects are **commercial products**, repositories are private.
-
-However, if you are:
-
-* a potential employer
-* a technical recruiter
-* a collaborator
-
-You can request **temporary read access** to specific repositories for evaluation.
+- Local-first storage with transaction sync queues
+- Conflict handling and idempotent uploads
+- Analytics computed on-device
 
 ---
 
-# Current Focus
+### Open source
 
-* Building SaaS products
-* Financial software
-* Offline-first applications
-* Scalable API architectures
+| Project | Description |
+|---|---|
+| [firebase-react-tools](https://github.com/fwebmaster-gt/firebase-react-tools) | Firebase helpers for React apps |
+| [simple-reactjs-store](https://github.com/fwebmaster-gt/simple-reactjs-store) | Minimal React store built on the Context API |
 
 ---
 
-# Contact
-LinkedIn: [fwebmaster](https://www.linkedin.com/in/fwebmaster/)
+### Currently focused on
+
+SaaS products · financial software · offline-first applications · scalable API architecture
+
+### Let's talk
+
+Open to conversations with teams building serious products. Reach me on
+[LinkedIn](https://www.linkedin.com/in/fwebmaster/) — if you'd like to review code from a private project,
+ask and I'll grant temporary read access.
